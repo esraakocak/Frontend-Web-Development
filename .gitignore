@@ -1,1 +1,15 @@
 
+/uploads/*
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Eclipse
+.settings/
+.project/
+.classpath/
+bin/
+
+# Java
+target/
