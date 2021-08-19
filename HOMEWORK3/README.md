@@ -1,0 +1,22 @@
+* Google ilk versiyonu  HTML taglari kullanılarak yapılmıştır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
