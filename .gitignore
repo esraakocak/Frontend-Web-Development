@@ -5,11 +5,8 @@
 .AppleDouble
 .LSOverride
 
-# Eclipse
-.settings/
-.project/
-.classpath/
-bin/
 
-# Java
-target/
+
+# Visual Studio Code
+.vscode/
+/.metadata/
