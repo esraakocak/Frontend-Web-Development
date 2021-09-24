@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border-style:none;
+  list-style-type: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  padding: 50px 0;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  font-size: 32px;
+  color: rgb(170, 166, 166);
+  margin-bottom: 30px;
+}
+.searchInput {
+  padding: 10px 15px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.notesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.notesArea {
+  width: 50%;
+  padding: 10px 15px;
+  height: 30vh;
+  resize: none;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  overflow: auto;
+}
+
+.notesFooter {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+}
+
+input[type=color]{
+width: 32px;
+height: 32px;
+border: none;
+border-radius: 32px;
+background: none;
+  cursor: pointer;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+border: solid 1px transparent; /*change color of the swatch border here*/
+border-radius: 40px;
+}
+
+.addBtn {
+  padding: 10px 25px ;
+  color: #eee;
+  border-color: none;
+  border-radius: 15px;
+  background-color: rgb(90, 155, 90);
+  margin-left: 350px;
+  cursor: pointer;
+}
+
+.noteList {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.noteListItem {
+  width: 200px;
+  height: 200px;
+  overflow: auto;
+  border-radius: 15px;
+  color: rgb(196, 190, 190);
+  padding: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  position: relative;
+}
+.noteListItem span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
   color: white;
+  cursor: pointer;
+  transition: 300ms all;
+}
+.noteListItem span::before {
+  content: "X";
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.noteListItem span:hover {
+  color: #000;
+  background-color: white;
 }
