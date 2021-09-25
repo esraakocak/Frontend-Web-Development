@@ -1,0 +1,16 @@
+.moneyContainer * {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+  }
+  
+  .moneyContainer {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #31d876, #1bcaa7);
+    position: sticky;
+    top: 0;
+  }

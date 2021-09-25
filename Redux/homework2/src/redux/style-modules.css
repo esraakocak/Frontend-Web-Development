@@ -1,0 +1,80 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 320px));
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem 0rem;
+  }
+  
+  .carddiv {
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    height: 300px;
+    padding: 2rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .carddiv img {
+    height: 40%;
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #333333;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  
+  .cardPrice {
+    color: #33c78e;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+  }
+  
+  .buyOptionsDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+  }
+  
+  .sellBtn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    background: linear-gradient(180deg, #f53636, #cf0e2b);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .sellBtn:disabled,
+  .buyBtn:disabled {
+    border: initial;
+    background: rgba(165, 164, 164, 0.5);
+  }
+  
+  .priceInput {
+    width: 100px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .buyBtn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    background: linear-gradient(180deg, #31d876, #1bcaa7);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+  }

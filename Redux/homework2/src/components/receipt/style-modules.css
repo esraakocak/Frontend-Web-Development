@@ -1,0 +1,59 @@
+.receiptContainerDiv {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .receiptContainerDiv > h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  
+  .receiptItemInfo {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  
+  .receiptItemTitle {
+    width: 45%;
+    font-size: 1rem;
+  }
+  
+  .receiptItemQuantity {
+    width: 10%;
+    text-align: center;
+  }
+  
+  .receiptItemPrice {
+    text-align: right;
+    width: 45%;
+    color: #33c78e;
+    font-weight: bolder;
+  }
+  
+  .totalContainer {
+    border-top: 1px solid black;
+    padding-top: 1rem;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+  
+  .totalContainer :last-child {
+    color: #33c78e;
+  }
+  
+  .hidden {
+    display: none;
+  }

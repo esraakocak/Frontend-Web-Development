@@ -1,0 +1,21 @@
+.headerContainer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .headerContainer h1 {
+    color: #333333;
+    font-size: 2rem;
+    padding: 0rem 1rem;
+    text-align: center;
+  }
+  
+  .headerContainer img {
+    border-radius: 50%;
+    width: 120px;
+  }
