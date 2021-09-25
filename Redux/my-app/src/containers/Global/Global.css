@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
+
+.Global {
+    height: 45vh;
+    width: 100%;
+    background: linear-gradient(rgba(18, 98, 255, 0.9), rgba(18, 98, 225, 0.9)), url("../../images//corona.jpg");
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Global  .heading {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 700 !important;
+    font-family: 'Nunito';
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.Global .description {
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgba(255,255,255,.6);
+    font-family: 'Nunito';
+    width: 100%;
+    height: 20px;
+    margin-top: -30px;
+}
+
+
+.Global .world-stats {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}

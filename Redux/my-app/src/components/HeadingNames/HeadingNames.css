@@ -1,0 +1,31 @@
+.Header {
+    height: 70px;
+    width: 60%;
+    background-color:rgba(18, 98, 255, 0.8);
+    margin: auto;
+    margin-top: 20px;
+}
+
+.Heading-Information:nth-child(1) {
+    width: 13.5% !important;
+}
+
+.Heading-Information:nth-child(3) {
+    width: 38% !important;
+}
+.Heading-Information:nth-child(4) {
+    width: calc(100% - 38% - 32% - 13.5%) !important;
+}
+
+.Heading-Information {
+    color: white;
+    float: left;
+    height: 100%;
+    width: 26%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    font-family: "Nunito";
+}
